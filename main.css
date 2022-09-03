@@ -1,0 +1,61 @@
+.gameboard {
+  width: 60vw;
+  height: 90vh;
+  background-color: aqua; 
+  margin: 5vh 20vw;
+ 
+}
+
+.clock {
+
+  padding: 1vw;
+  height: 3vw;
+  width: 95%;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+ 
+  font-family: 'Cyberverse', sans-serif;
+  }
+
+.title {
+  width: 100%;
+  padding:1%;
+}
+
+.title > * {
+  text-align: center;
+  color: white;
+}
+
+
+.card__container {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 60%;
+}
+
+.card__container > div {
+  width: 8vw;
+  height: 19vh;
+  background-color: aliceblue;
+  margin:2vh 2vw;
+  
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: color_animation 3s 1; 
+}
+
+@keyframes scale_animation {
+	
+  50% { opacity:0.5}
+  80% { opacity:0.8 }
+}
+
+.hidden {
+  display: none;
+}
